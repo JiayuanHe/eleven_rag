@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: eleven-rag
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen-max
+      api-key: 00956941f89045dd893caa61fd3f064c
+
+
+
+server:
+  port: 38080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+logging:
+  level:
+    root: info
+    com.eleven.rag: info
+  charset:
+    console: UTF-8
+    file: UTF-8
+
+
